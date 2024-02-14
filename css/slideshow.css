@@ -35,6 +35,16 @@ img {
     border-radius: 10px;
 }
 
+.gif {
+    display: inline-block;
+    width: 30%;
+    height: auto;
+    position: relative;
+    vertical-align: top;
+    margin-top: 12%;
+    margin-right: 9%;
+}
+
 .bttn {
     padding: 15px 20px 30px;
     cursor: pointer;
