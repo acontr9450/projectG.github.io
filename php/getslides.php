@@ -4,10 +4,10 @@ ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
 //Define the address of the server, database, user, and password
-$host = 'localhost';
+$host = 'mysql';
 $db = 'projectG';
 $user = 'root';
-$pass = 'angel767';
+$pass = 'Angel@921266';
 $dsn = "mysql:host=$host;dbname=$db";
 
 //try to reach/open database

@@ -25,7 +25,7 @@ function changeSlide(n) {
 
 //Get slide info from database below & display
 function getSlides(){
-    let theURL = "http://localhost/moneyg/php/getslides.php";
+    let theURL = "/DATA/Documents/moneyg/php/getslides.php"; //get actual url from container
     fetch( theURL )										
         .then( res => res.json() )						
         .then( data => displaySlides( data ) );			
